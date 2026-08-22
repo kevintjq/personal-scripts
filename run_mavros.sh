@@ -69,6 +69,8 @@ echo "MAVROS 已启动，发送参数设置命令..."
 
 rosrun mavros mavcmd long 511 105 5000 0 0 0 0 0 & sleep 1
 rosrun mavros mavcmd long 511 31 5000 0 0 0 0 0
+sleep 1
+rosrun mavros mavcmd long 511 32 5000 0 0 0 0 0
 
 echo "IMU 参数设置完成"
 
